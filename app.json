@@ -6,6 +6,10 @@
         "description": "Facebook Messenger Access Token",
         "value":""
     },
+    "VERIFY_TOKEN": {
+        "description": "Facebook Verify Token",
+        "value":""
+    },
     "SF_CLIENT_ID": {
         "description": "Client Id of your Salesforce Connected App",
         "value":""
