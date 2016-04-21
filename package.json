@@ -1,0 +1,17 @@
+{
+  "name": "messengerforce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christophe Coenraets <ccoenraets@gmail.com> (http://coenraets.org/)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "nforce": "^1.4.1",
+    "request": "^2.71.0"
+  }
+}
