@@ -7,7 +7,7 @@ let request = require('request'),
 let sendMessage = (message, recipient) => {
     request({
         url: 'https://graph.facebook.com/v2.6/me/messages',
-        qs: {access_token: process.env.PAGE_TOKEN},
+        qs: {access_token: process.env.FB_PAGE_TOKEN},
         method: 'POST',
         json: {
             recipient: {id: recipient},
@@ -74,7 +74,7 @@ let processText = (text, sender)  => {
 };
 
 let handleGet = (req, res) => {
-    if (req.query['hub.verify_token'] === process.env.VERIFY_TOKEN) {
+    if (req.query['hub.verify_token'] === process.env.FB_VERIFY_TOKEN) {
         res.send(req.query['hub.challenge']);
     }
     res.send('Error, wrong validation token');
