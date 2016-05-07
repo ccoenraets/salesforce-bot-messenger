@@ -23,17 +23,16 @@ See [this blog post](http://coenraets.org/blog/2016/04/salesforce-bot-for-facebo
 1. Make sure you are logged in to the [Heroku Dashboard](https://dashboard.heroku.com/)
 1. Click the button below to deploy the Messenger bot on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+    [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 1. Fill in the config variables as described.
 
-    - Leave FB_PAGE_TOKEN blank for now
-    - For FB_VERIFY_TOKEN, enter a passphrase of your choice. You'll have to enter the same passphrase when you create the webhook in Facebook.
-    - For SF_CLIENT_ID, enter the Consumer Key of your Salesforce Connected App
-    - For SF_CLIENT_SECRET, enter the Consumer Secret of your Salesforce Connected App
-    - For SF_USER_NAME, enter the the username of your Salesforce integration user
-    - For SF_PASSWORD, enter the the username of your Salesforce integration user
-
+    - Leave **FB_PAGE_TOKEN** blank for now
+    - For **FB_VERIFY_TOKEN**, enter a passphrase of your choice. You'll have to enter the same passphrase when you create the webhook in Facebook.
+    - For **SF_CLIENT_ID**, enter the Consumer Key of your Salesforce Connected App
+    - For **SF_CLIENT_SECRET**, enter the Consumer Secret of your Salesforce Connected App
+    - For **SF_USER_NAME**, enter the the username of your Salesforce integration user
+    - For **SF_PASSWORD**, enter the the username of your Salesforce integration user
 
 ### Create a Facebook App
 
