@@ -11,11 +11,11 @@
         "value":""
     },
     "SF_CLIENT_ID": {
-        "description": "Client Id of your Salesforce Connected App",
+        "description": "Consumer Key of your Salesforce Connected App",
         "value":""
     },
     "SF_CLIENT_SECRET": {
-        "description": "Secret of your Salesforce Connected App",
+        "description": "Consumer Secret of your Salesforce Connected App",
         "value":""
     },
     "SF_USER_NAME": {
