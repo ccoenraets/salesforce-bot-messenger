@@ -4,7 +4,8 @@
   "env": {
     "FB_PAGE_TOKEN": {
         "description": "Facebook Messenger Access Token",
-        "value":""
+        "value":"",
+        "required":false
     },
     "FB_VERIFY_TOKEN": {
         "description": "Facebook Verify Token",
